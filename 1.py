@@ -1,13 +1,19 @@
-a = int(input())
-b = int(input())
-c = int(input())
-if a>=b:
-    if a>=c:
-        print("Max number:",a)
-    else:
-        print("Max number:",c)
-else:
-    if b>=c:
-        print("Max number:",b)
-    else:
-        print("Max number:",c)
+#include <iostream>
+#include <vector>
+
+using namespace std;
+
+int main(){
+int n;
+cin >> n;
+vector <int> a(n);
+for (int i = 0; i < n; i++) cin >> a[i];
+int b = -1;
+
+for (int i = 0; i < n; i++){
+	b = std::max(b, a[i]);
+}
+
+cout<<b;
+
+}
