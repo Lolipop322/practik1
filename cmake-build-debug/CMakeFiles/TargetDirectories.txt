@@ -1,3 +1,0 @@
-C:/Users/79872/prac/cmake-build-debug/CMakeFiles/prac.dir
-C:/Users/79872/prac/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/79872/prac/cmake-build-debug/CMakeFiles/rebuild_cache.dir
